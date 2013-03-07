@@ -12,14 +12,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /L.N9BB1GIX8zQKqlffGu_8426epSQ1iB59pKk2EiDg--.html
-  static_files: L.N9BB1GIX8zQKqlffGu_8426epSQ1iB59pKk2EiDg--.html
-  upload: L.N9BB1GIX8zQKqlffGu_8426epSQ1iB59pKk2EiDg--.html
-
-- url: /index\.html
-  static_files: index.html
-  upload: index\.html
-
 - url: /.*
   script: hello.app
 
