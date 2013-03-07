@@ -3,8 +3,8 @@
   
 // MODIFY: Insert your own consumer key and secret here!  
 $consumer_data = array();  
-$consumer_data['test']['key']    = '<INSERT CONSUMER KEY HERE>';  
-$consumer_data['test']['secret'] = '<INSERT CONSUMER SECRET HERE>';  
+$consumer_data['test']['key']    = 'dj0yJmk9bjFhUmtMNE5oQlV6JmQ9WVdrOVNHTmlSMXBqTm1jbWNHbzlNakF5T0RBek1qWXkmcz1jb25zdW1lcnNlY3JldCZ4PTVh';  
+$consumer_data['test']['secret'] = '2fe4cd85ea2bc3ff81d2725d243d8e63c38d5b5f';  
   
   
 // **** HELPER FUNCTIONS START HERE ****  
