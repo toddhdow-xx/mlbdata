@@ -4,5 +4,17 @@ runtime: php
 api_version: 1
 
 handlers:
+- url: /yahoo
+  script: yahoo.php
+
+- url: /yahoo2
+  script: yahoo2.php
+
+- url: /yahoo3
+  script: yahoo3.php
+
+- url: /yahoo4
+  script: yahoo4.php
+
 - url: /.*
   script: helloworld.php
