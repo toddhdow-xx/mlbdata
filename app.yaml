@@ -12,9 +12,19 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /YHandler
+  script: YHandler.app
+
 - url: /.*
   script: hello.app
 
 libraries:
 - name: webapp2
   version: "2.5.1"
+
+- name: requests
+  version: latest
+
+- name: urllib3
+  version: latest
+  

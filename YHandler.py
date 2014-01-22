@@ -82,4 +82,5 @@ class YHandler(object):
 			query = self.call_api(url, req_meth, data=data, headers=headers)
 		return query
 
-	
+app = webapp2.WSGIApplication([('/YHandler', YHandler)],
+                              debug=True)
