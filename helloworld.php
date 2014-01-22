@@ -1,3 +1,3 @@
 <?php
-	echo 'Hello World!';
+	echo 'Welcome to my MLB Data Analysis App!';
 	
